@@ -1,0 +1,145 @@
+.groupings {
+    width: 33%;
+    text-align: center;
+    background-color: orange;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px
+
+
+}
+
+#flex {
+    display: flex;
+    flex-direction: row
+}
+
+#mdlt_Acres_Saved_For_Research:after {
+    font: 800 30px system-ui;
+    content: counter(count);
+    animation: counter 5s ;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes counter {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 10;
+    }
+  }
+
+#mdlt_Pounds_Donated_For_Saving:after {
+    font: 800 30px system-ui;
+    content: counter(count);
+    animation: movement 5s ;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes movement {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 11;
+    }
+    20% {
+      counter-increment: count 21;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 10;
+    }
+  }
+
+  #mdlt_Amount_Of_Miles_Preserved:after {
+    font: 800 30px system-ui;
+    content: counter(count);
+    animation: plus 5s ;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes plus {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 51;
+    }
+    20% {
+      counter-increment: count 44;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 10;
+    }
+  }
