@@ -1,4 +1,4 @@
-.groupings {
+.mdltGroupings {
     width: 33%;
     text-align: center;
     background-color: orange;
@@ -7,139 +7,225 @@
     margin-top: 3px;
     margin-bottom: 3px
 
-
 }
 
-#flex {
+.flex {
     display: flex;
     flex-direction: row
 }
 
-#mdlt_Acres_Saved_For_Research:after {
-    font: 800 30px system-ui;
-    content: counter(count);
-    animation: counter 5s ;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes counter {
-    0% {
-      counter-increment: count 0;
-    }
-    10% {
-      counter-increment: count 1;
-    }
-    20% {
-      counter-increment: count 2;
-    }
-    30% {
-      counter-increment: count 3;
-    }
-    40% {
-      counter-increment: count 4;
-    }
-    50% {
-      counter-increment: count 5;
-    }
-    60% {
-      counter-increment: count 6;
-    }
-    70% {
-      counter-increment: count 7;
-    }
-    80% {
-      counter-increment: count 8;
-    }
-    90% {
-      counter-increment: count 9;
-    }
-    100% {
-      counter-increment: count 10;
-    }
-  }
+.protected:after {
+  font: 500 30px system-ui;
+  content: counter(count);
+  animation: counter 5s ;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
 
-#mdlt_Pounds_Donated_For_Saving:after {
-    font: 800 30px system-ui;
-    content: counter(count);
-    animation: movement 5s ;
-    animation-fill-mode: forwards;
+@keyframes counter {
+  0% {
+    counter-increment: count 0;
   }
-  
-  @keyframes movement {
-    0% {
-      counter-increment: count 0;
-    }
-    10% {
-      counter-increment: count 11;
-    }
-    20% {
-      counter-increment: count 21;
-    }
-    30% {
-      counter-increment: count 3;
-    }
-    40% {
-      counter-increment: count 4;
-    }
-    50% {
-      counter-increment: count 5;
-    }
-    60% {
-      counter-increment: count 6;
-    }
-    70% {
-      counter-increment: count 7;
-    }
-    80% {
-      counter-increment: count 8;
-    }
-    90% {
-      counter-increment: count 9;
-    }
-    100% {
-      counter-increment: count 10;
-    }
+  10% {
+    counter-increment: count 11411;
   }
+  20% {
+    counter-increment: count 22822;
+  }
+  30% {
+    counter-increment: count 34234;
+  }
+  40% {
+    counter-increment: count 45645;
+  }
+  50% {
+    counter-increment: count 55057;
+  }
+  60% {
+    counter-increment: count 68469;
+  }
+  70% {
+    counter-increment: count 79879;
+  }
+  80% {
+    counter-increment: count 91290;
+  }
+  90% {
+    counter-increment: count 102702;
+  }
+  100% {
+    counter-increment: count 114113;
+  }
+}
 
-  #mdlt_Amount_Of_Miles_Preserved:after {
-    font: 800 30px system-ui;
-    content: counter(count);
-    animation: plus 5s ;
-    animation-fill-mode: forwards;
+.collected:after {
+  font: 500 30px system-ui;
+  content: counter(count);
+  animation: collect 5s ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes collect {
+  0% {
+    counter-increment: count 0;
   }
-  
-  @keyframes plus {
-    0% {
-      counter-increment: count 0;
-    }
-    10% {
-      counter-increment: count 51;
-    }
-    20% {
-      counter-increment: count 44;
-    }
-    30% {
-      counter-increment: count 3;
-    }
-    40% {
-      counter-increment: count 4;
-    }
-    50% {
-      counter-increment: count 5;
-    }
-    60% {
-      counter-increment: count 6;
-    }
-    70% {
-      counter-increment: count 7;
-    }
-    80% {
-      counter-increment: count 8;
-    }
-    90% {
-      counter-increment: count 9;
-    }
-    100% {
-      counter-increment: count 10;
-    }
+  10% {
+    counter-increment: count 31;
   }
+  20% {
+    counter-increment: count 44;
+  }
+  30% {
+    counter-increment: count 84;
+  }
+  40% {
+    counter-increment: count 120;
+  }
+  50% {
+    counter-increment: count 140;
+  }
+  60% {
+    counter-increment: count 190;
+  }
+  70% {
+    counter-increment: count 321;
+  }
+  80% {
+    counter-increment: count 431;
+  }
+  90% {
+    counter-increment: count 532;
+  }
+  100% {
+    counter-increment: count 684;
+  }
+}
+
+.grown:after {
+  font: 500 30px system-ui;
+  content: counter(count);
+  animation: grow 5s ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 31;
+  }
+  20% {
+    counter-increment: count 44;
+  }
+  30% {
+    counter-increment: count 84;
+  }
+  40% {
+    counter-increment: count 120;
+  }
+  50% {
+    counter-increment: count 140;
+  }
+  60% {
+    counter-increment: count 190;
+  }
+  70% {
+    counter-increment: count 321;
+  }
+  80% {
+    counter-increment: count 431;
+  }
+  90% {
+    counter-increment: count 532;
+  }
+  100% {
+    counter-increment: count 97601;
+  }
+}
+
+.conveyed:after {
+  font: 500 30px system-ui;
+  content: counter(count);
+  animation: movement 5s ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movement {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 31;
+  }
+  20% {
+    counter-increment: count 44;
+  }
+  30% {
+    counter-increment: count 84;
+  }
+  40% {
+    counter-increment: count 120;
+  }
+  50% {
+    counter-increment: count 140;
+  }
+  60% {
+    counter-increment: count 190;
+  }
+  70% {
+    counter-increment: count 321;
+  }
+  80% {
+    counter-increment: count 431;
+  }
+  90% {
+    counter-increment: count 532;
+  }
+  100% {
+    counter-increment: count 56769;
+  }
+}
+
+.connected:after {
+  font: 500 30px system-ui;
+  content: counter(count);
+  animation: plus 5s ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes plus {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 31;
+  }
+  20% {
+    counter-increment: count 44;
+  }
+  30% {
+    counter-increment: count 84;
+  }
+  40% {
+    counter-increment: count 120;
+  }
+  50% {
+    counter-increment: count 140;
+  }
+  60% {
+    counter-increment: count 190;
+  }
+  70% {
+    counter-increment: count 321;
+  }
+  80% {
+    counter-increment: count 431;
+  }
+  90% {
+    counter-increment: count 532;
+  }
+  100% {
+    counter-increment: count 8663;
+  }
+}
